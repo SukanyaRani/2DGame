@@ -42,6 +42,7 @@ public class Window {
 
         //Configure GLFW
         glfwDefaultWindowHints();
+
         glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
         glfwWindowHint(GLFW_MAXIMIZED,GLFW_TRUE);
 
